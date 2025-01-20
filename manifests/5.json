@@ -1,0 +1,57 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://KseniiaZakh.github.io/IIIF_Annotations/manifests/5.json",
+  "@type" : "sc:Manifest",
+  "label" : "number 5",
+  "metadata" : [ {
+    "label" : "Label",
+    "value" : "Value"
+  } ],
+  "description" : [ {
+    "@value" : "number 5",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "sequences" : [ {
+    "@id" : "http://70449b07-7413-4b4e-b9e0-30b8c798d41a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e2b5a62d-8779-4d25-8fc2-d4e18782778c",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3456,
+      "width" : 5184,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://abcb4bd4-d602-4d80-92e5-7de4557784dd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://kseniiazakh.github.io/IIIF_Annotations/images/siora-photography-M40oeDRSgcI-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://kseniiazakh.github.io/IIIF_Annotations/images/siora-photography-M40oeDRSgcI-unsplash",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3456,
+          "width" : 5184
+        },
+        "on" : "http://e2b5a62d-8779-4d25-8fc2-d4e18782778c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "thumbnail" : {
+    "@id" : "http://e2b5a62d-8779-4d25-8fc2-d4e18782778c"
+  },
+  "attribution" : {
+    "@language" : "Kseniia Zakharneva"
+  }
+}
