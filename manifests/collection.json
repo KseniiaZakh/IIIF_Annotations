@@ -1,0 +1,13 @@
+{
+  "id" : "https://KseniiaZakh.github.io/IIIF_Annotations/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in KseniiaZakh/IIIF_Annotations project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://KseniiaZakh.github.io/IIIF_Annotations/manifests/5.json",
+    "label" : "number 5"
+  } ]
+}
